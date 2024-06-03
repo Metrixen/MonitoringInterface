@@ -23,7 +23,7 @@ The results are displayed in charts using Echarts. Please note that it is intend
 0. Ensure you have all the dependencies installed
 1. Clone the repository
    ```
-   $ git clone ?
+   $ git clone https://github.com/Metrixen/MonitoringInterface.git
    ```
 2. Enter the backend folder with `cd backend` and type
    ```
