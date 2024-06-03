@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./styles/main.css" rel="stylesheet" />
+	<title>Process Monitor</title>
+</head>
+
+<body>
+	<h2>Monitoring of system processes</h2>
+	<div class="chartborder">
+		<div class="wrapper">
+			<div id="cpu" class="chart"></div>
+			<div id="cpupie" class="chart"></div>
+		</div>
+		<div class="wrapper">
+			<div id="ram" class="chart"></div>
+			<div id="rampie" class="chart"></div>
+		</div>
+		<div class="wrapper">
+			<div id="sent" class="chart"></div>
+			<div id="received" class="chart"></div>
+		</div>
+	</div>
+</body>
+
+<script src=" https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js "></script>
+
+<script type="module" src="./scripts/utils.js"></script>
+<script type="module" src="./scripts/chart.js"></script>
+<script type="module" src="./scripts/cpuchart.js"></script>
+<script type="module" src="./scripts/ramchart.js"></script>
+<script type="module" src="./scripts/sentchart.js"></script>
+<script type="module" src="./scripts/receivedchart.js"></script>
+<script type="module" src="./scripts/pie.js"></script>
+<script type="module" src="./scripts/cpupie.js"></script>
+<script type="module" src="./scripts/rampie.js"></script>
+
+</html>
